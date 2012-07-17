@@ -1,4 +1,4 @@
 jquery.fb-responsive-comments.js
 ================================
 
-Responsive Comments that spans mobile, tablet and desktop
+Responsive Facebook comments that span mobile, tablet and desktop
