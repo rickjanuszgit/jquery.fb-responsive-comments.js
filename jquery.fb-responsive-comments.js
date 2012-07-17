@@ -14,9 +14,6 @@
             var defaults = {
                 'appId': 'your_app_id_here',  // App ID
                 'channelUrl': 'your_url_here', // Your url: 'www.example.com' // MUST NOT CONTAIN 'http://'
-                'status': true, // check login status
-                'cookie': true, // enable cookies to allow the server to access the session
-                'xfbml': true, // parse XFBML
                 'posts' : '5', // how many posts to show initially
                 'commentsClass' : 'comments', // give the fbml tag a class default is comments
                 'loadSDK' : true
