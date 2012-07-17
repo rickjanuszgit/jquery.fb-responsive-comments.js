@@ -1,0 +1,5 @@
+ .fb_iframe_widget, 
+ .fb_iframe_widget span[style], 
+ .fb_iframe_widget iframe[style] {width:100% !important}
+  
+  #auth-loggedin {display: none}
