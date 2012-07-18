@@ -8,7 +8,7 @@ Responsive Facebook comments that span mobile, tablet and desktop
 To initialize the plugin simply call:
  <pre>
 jQuery('div you want it inserted to').fbresponsivecomments({
-     appid:'your_appId_here',
+     appId:'your_appId_here',
      channelUrl: 'your_domain_here' });
 </pre>
 Options:
