@@ -45,7 +45,7 @@
 				     'class="fb-comments" '+
 				     'data-href="'+o.url+'" '+
 				     'mobile="false" '+
-				     'data-num-posts="2"></div>');
+				     'data-num-posts="'o.posts'"></div>');
 				    FB.XFBML.parse( );
 				}); 
                 
