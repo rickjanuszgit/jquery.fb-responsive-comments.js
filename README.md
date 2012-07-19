@@ -1,6 +1,6 @@
-jquery.fb-responsive-comments.js
-================================
-
+ This plugin was made to take the guesswork out of making the facebook comments responsive and able to work on mobile phones without loading issues. It's based off of a technique used here:https://gist.github.com/2111366 . There were several mods made, this technique didn't work fully for the comments but it did solve the loading problem we were experiencing with the mobile version from Facebook.
+ 
+ What ended up working was to turn mobile off and make the container div responsive (based off of percent). Works great! Give it a try.
 
 To initialize the plugin simply call:
  <pre>
