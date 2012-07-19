@@ -1,9 +1,6 @@
 jquery.fb-responsive-comments.js
 ================================
 
-Responsive Facebook comments that span mobile, tablet and desktop
-
-# <h1>Responsive Facebook Comments jQuery Plugin</h1>
 
 To initialize the plugin simply call:
  <pre>
