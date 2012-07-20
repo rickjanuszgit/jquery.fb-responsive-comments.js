@@ -9,8 +9,8 @@ To initialize the plugin simply call:
  <script>
  $(function(){
     $('#container').fbresponsivecomments({
-        appId:\'your_appId_here\',
-        url: \'your_domain_here\' 
+        appId:&quot;your_appId_here&quot;,
+        url: &quot;your_domain_here&quot;' 
     });
  });
  </script>
