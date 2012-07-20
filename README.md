@@ -7,12 +7,12 @@ To initialize the plugin simply call:
  <pre>
  <code>
  <script>
- $(function(){
+ 
     $('#container').fbresponsivecomments({
-        appId:&quot;your_appId_here&quot;,
-        url: &quot;your_domain_here&quot;' 
+        appId:'your_appId_here',
+        url: ';your_domain_here'' 
     });
- });
+    
  </script>
  // Put this in the body where you want the comments to show up
 &lt;div id="container">
