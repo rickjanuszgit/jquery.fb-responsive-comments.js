@@ -30,24 +30,12 @@
 				  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId="+o.appId;
 				  fjs.parentNode.insertBefore(js, fjs);
 				}(document, 'script', 'facebook-jssdk'));
-	               
-
+           
+	               $(window).bind("load", function(){
+					    FB.XFBML.parse( );
+					}); 
 						                
-				$('body').prepend('<div id="fb-root"></div>');
-            
-            
-			// this chunk of code is based off of the
-			// solution found here: https://gist.github.com/2111366 
-               $(window).bind("load", function(){
-				var container_width = $(this).width();
-				  $(this).html('<div id="comments" '+
-				     'data-width="' + container_width + '" '+
-				     'class="fb-comments" '+
-				     'data-href="'+o.url+'" '+
-				     'mobile="false" '+
-				     'data-num-posts="'o.posts'"></div>');
-				    FB.XFBML.parse( );
-				}); 
+					$('body').prepend('<div id="fb-root"></div>');
                 
             });
         }
