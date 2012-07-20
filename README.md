@@ -5,20 +5,17 @@
 Initialization
 To initialize the plugin simply call:
  <pre>
- <code>
- <script>
  
     $('#container').fbresponsivecomments({
         appId:'your_appId_here',
         url: ';your_domain_here'' 
     });
     
- </script>
  // Put this in the body where you want the comments to show up
 &lt;div id="container">
      &lt;div class="fb-comments" data-href="YOUR PAGE URL HERE" data-num-posts="2" mobile="false">&lt;/div>
 &lt;/div>
- </code>
+
 </pre>
 Options:
 * 'appId': 'your_appId_here',              
