@@ -12,11 +12,11 @@ To initialize the plugin simply call:
         appId:'your_appId_here',
         url: 'your_domain_here' 
     });
- })
+ });
  </script>
  // Put this in the body where you want the comments to show up
  <div id="container">
-     <div class="fb-comments" data-href="http://www.topdog-js.com/carousels/cycle/" data-num-posts="2" mobile="false"></div>
+     &gt;div class="fb-comments" data-href="http://www.topdog-js.com/carousels/cycle/" data-num-posts="2" mobile="false"></div>
 </div>
  </code>
 </pre>
