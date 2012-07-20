@@ -1,12 +1,23 @@
- This plugin was made to take the guesswork out of making the facebook comments responsive and able to work on mobile phones without loading issues. It's based off of a technique used here:https://gist.github.com/2111366 . There were several mods made, this technique didn't work fully for the comments but it did solve the loading problem we were experiencing with the mobile version from Facebook.
+ This plugin was made to take the guesswork out of making the facebook comments responsive and able to work on mobile phones without loading issues.
  
- What ended up working was to turn mobile off and make the container div responsive (based off of percent). Works great! Give it a try.
+ What ended up working was to turn mobile off and make the container div responsive (based off of percent) then refresh the content on page load.  Works great! Give it a try.
 
+Initialization
 To initialize the plugin simply call:
  <pre>
-jQuery('div you want it inserted to').fbresponsivecomments({
-     appId:'your_appId_here',
-     url: 'your_domain_here' });
+ <script>
+ $(function(){
+    $('#container').fbresponsivecomments({
+        appId:'your_appId_here',
+        url: 'your_domain_here' 
+    });
+ })
+ </script>
+ // Put this in the body where you want the comments to show up
+ <div id="container">
+     <div class="fb-comments" data-href="http://www.topdog-js.com/carousels/cycle/" data-num-posts="2" mobile="false"></div>
+</div>
+ 
 </pre>
 Options:
 * 'appId': 'your_appId_here',              
