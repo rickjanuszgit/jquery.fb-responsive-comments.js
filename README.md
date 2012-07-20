@@ -6,6 +6,8 @@ Initialization
 To initialize the plugin simply call:
  <pre>
  
+    
+ // Put this inside the jQuery document ready statement
     $('#container').fbresponsivecomments({
         appId:'your_appId_here',
         url: ';your_domain_here'' 
