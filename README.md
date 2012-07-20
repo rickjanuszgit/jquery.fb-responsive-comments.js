@@ -5,6 +5,7 @@
 Initialization
 To initialize the plugin simply call:
  <pre>
+ <code>
  <script>
  $(function(){
     $('#container').fbresponsivecomments({
@@ -17,7 +18,7 @@ To initialize the plugin simply call:
  <div id="container">
      <div class="fb-comments" data-href="http://www.topdog-js.com/carousels/cycle/" data-num-posts="2" mobile="false"></div>
 </div>
- 
+ </code>
 </pre>
 Options:
 * 'appId': 'your_appId_here',              
